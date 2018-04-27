@@ -16,5 +16,12 @@ namespace Water_Billing_System
         {
             InitializeComponent();
         }
+
+        private void Employee_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'water_Billing_SystemDataSet.Employee' table. You can move, or remove it, as needed.
+            this.employeeTableAdapter.Fill(this.water_Billing_SystemDataSet.Employee);
+
+        }
     }
 }
